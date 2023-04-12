@@ -1,3 +1,4 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Medium"
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "liveServer.settings.port": 5501
 }
