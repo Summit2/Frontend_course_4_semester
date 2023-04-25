@@ -3,13 +3,16 @@ import {BackButtonComponent} from "../../components/back-button/index.js";
 import {MainPage} from "../main/index.js";
 
 export class ProductPage {
+    
     constructor(parent, id) {
         this.parent = parent
-        this.id = id
+        this.id = id 
     }
 
     getData() {
+        
         return {
+            
             id: 1,
             src: "Тюлень.jpg    ",
             title: `Вместо лекции в ${this.id}:00`,

@@ -1,3 +1,4 @@
+
 import {ProductCardComponent} from "../../components/product-card/index.js";
 import {ProductPage} from "../product/index.js";
 
@@ -19,6 +20,7 @@ export class MainPage {
     }
         
     getData() {
+        
         return [
             {
                 id: 1,
@@ -42,8 +44,8 @@ export class MainPage {
     }
 
     clickCard(e) {
-        const cardId = e.target.dataset.id
-    
+        const cardId = (e.target.dataset.id)
+        
         const productPage = new ProductPage(this.parent, cardId)
         productPage.render()
     }
